@@ -1,0 +1,38 @@
+K6 Performance Test
+
+Apa itu K6?
+Menggunakan k6,tester dapat menguji keandalan dan kinerja sistem dan menangkap regresi dan masalah kinerja sebelumnya
+K6 membantu dalam membangun aplikasi tangguh dan berkinerja tinggi yang berskala
+K6 Performance Test merujuk pada penggunaan K6, sebuah alat open-source yang dirancang untuk melakukan load testing atau pengujian beban pada aplikasi web dan sistem lainnya. K6 memungkinkan pengembang dan tim DevOps untuk mengukur seberapa baik kinerja aplikasi mereka di bawah tekanan, dengan melakukan simulasi beban yang mencakup ratusan, ribuan, atau bahkan jutaan pengguna secara simultan.
+
+Berikut adalah beberapa hal yang perlu diketahui tentang K6 performance test:
+
+Pengujian Beban (Load Testing): K6 digunakan untuk menguji bagaimana aplikasi atau sistem web menangani sejumlah besar pengguna atau permintaan dalam waktu tertentu. Tujuannya adalah untuk memastikan bahwa aplikasi dapat mengelola trafik yang tinggi tanpa penurunan kinerja yang signifikan.
+
+Jenis Pengujian yang Dapat Dilakukan dengan K6:
+
+Load Testing: Untuk mengukur kinerja aplikasi di bawah beban pengguna yang meningkat secara bertahap.
+Stress Testing: Menguji aplikasi untuk mengetahui batas maksimalnya dan bagaimana aplikasi bereaksi ketika beban sangat tinggi.
+Spike Testing: Menguji aplikasi dengan lonjakan beban mendadak untuk melihat bagaimana ia menangani perubahan besar dalam volume trafik.
+Soak Testing: Menguji stabilitas aplikasi dalam periode waktu yang lama dengan beban yang konstan.
+Bahasa Pemrograman JavaScript: K6 memungkinkan pengguna untuk menulis skrip uji kinerja menggunakan JavaScript. Ini membuatnya mudah diintegrasikan dengan alur kerja pengembangan modern yang sering menggunakan JavaScript.
+
+Fitur-fitur Utama K6:
+
+Distribusi Beban: Pengguna dapat mendistribusikan beban pengujian dari berbagai lokasi geografis.
+Integrasi dengan CI/CD: K6 dapat digunakan dalam pipeline CI/CD untuk mengotomatisasi pengujian kinerja pada setiap perubahan kode.
+Pengukuran dan Analisis: K6 menyediakan laporan terperinci mengenai kinerja aplikasi, termasuk waktu respons, throughput, error rate, dan metrik lainnya yang membantu mengidentifikasi masalah performa.
+Penggunaan: K6 dapat digunakan untuk menguji berbagai jenis aplikasi, termasuk aplikasi web, API, dan microservices. Pengujian ini bisa dilakukan di server lokal atau di cloud, dengan menggunakan berbagai jenis skenario pengguna untuk mensimulasikan interaksi dunia nyata.
+
+Secara keseluruhan, K6 performance testing adalah alat yang kuat untuk membantu memastikan bahwa aplikasi atau sistem dapat menangani beban yang tinggi tanpa mengorbankan pengalaman pengguna atau keandalan aplikasi.
+
+Use Cases
+Penggunaan k6 biasanya Developer, QA Engineers, SDETs, and SREs. Mereka menggunakan k6 unutk menguji kinerja dan keandalan APIs, 
+Layanan mikro,dan situs web. Kasus penggunaan k6 yang umum adalah:
+* Load testing
+K6 di optimalkan untuk konsumsi sumber daya minimal dan dirancang untuk menjalankan uji beban tinggi (spike,strees,soak tests).
+* Performance and synthetic monitoring
+Dengan k6, anda dapat menjalankan pengujian dengan sedikit beban untuk terus memvalidasi kinerja dan ketersediaan lingkungan produksi anda.
+* Chaos anda reliability testing
+k6 menyediakan arsitektur yang dapat diperluas, anda dapat menggunakan k6 unutk mensimulasikan lalulintas sebagai bagian dari eksperimen chaos anda atau 
+memicunya dari pengujian k6 anda.
